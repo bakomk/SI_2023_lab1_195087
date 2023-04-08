@@ -1,0 +1,65 @@
+0-6. Креирање на директориум, поворзување и автоматско креирање на реадми.
+git clone https://github.com/bakomk/SI_2023_lab1_195087
+cd SI_2023_lab1_195087/
+git pull
+nano README.md
+git commit -m "Initial Commit"
+7. Креирање на јава фајл и комит негов.
+nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+8. Синхронизација.
+git push
+9. Креирање на бренчови.
+git branch bug1
+git branch bug2
+git branch bug3
+10. Влез во бренч баг1.
+git checkout bug1
+11. Корекција на грешка во бренч и комитирање.
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+12. Влез во бренч баг2.
+git checkout bug2
+13. Корекција на грешка во баг2 и комитирање.
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+14. Влез во бренч баг3.
+git checkout bug3
+15. Корекција на грешка во баг3 и комитирање.
+nano SILab1.java
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+16. СИнхронизација на гранките.
+git push --all origin
+17. Одиме кон бренч мастер.
+git checkout master
+18. Спојување на бренч1 со мастер.
+git merge bug1
+19. Синхронизација.
+git push --all origin
+20. Спојување на бренч2 со мастер.
+git merge bug2
+21. Синхронизација.
+git push --all origin
+22. Префрлување на бренч баг3.
+git checkout bug3
+23. Ребејс спрема мастер.
+git rebase master
+24. Префрлување кон мастер.
+git checkout master
+25. Спојување на баг3 кон мастер.
+git merge bug3
+26. Синхронизација
+git push --all --force origin
+27. Креирање на логс и на текст фајл
+git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git logline >> log.txt
+git add log.txt
+nano 195087.txt
+git add 195087.txt
+git commit -m "Final commit"
+28. Синхронизација.
+git push

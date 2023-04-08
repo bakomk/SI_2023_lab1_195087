@@ -1,0 +1,9 @@
+* 4ff41d7 - (HEAD -> master, origin/master, origin/bug3, origin/HEAD, bug3) Fix method sumEvenNumbers (7 minutes ago) <bako>
+*   7b09d8d - Merge branch 'bug2' (15 minutes ago) <bako>
+|\  
+| * b44a014 - (origin/bug2, bug2) Fix wrong condition in filterOddNumbers (23 minutes ago) <bako>
+* | 80bef1c - (origin/bug1, bug1) Fix wrong loop for reading (30 minutes ago) <bako>
+|/  
+* 603cc81 - Add java class (78 minutes ago) <bako>
+* 391ef9a - Initial commit (80 minutes ago) <bako>
+* 0ee2ba0 - Initial commit (2 hours ago) <bakomk>
