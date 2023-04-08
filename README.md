@@ -1,1 +1,1 @@
-# SI_2023_lab1_195087
+Blagoja Velkovski 195087
